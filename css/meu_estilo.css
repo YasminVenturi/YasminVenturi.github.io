@@ -1,0 +1,24 @@
+nav{
+    height: 50px;
+    background-color:lightslategray;
+    color: antiquewhite;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:darkslategray;
+}
+
+a:hover{
+    text-decoration: none;
+    color: crimson;
+}
