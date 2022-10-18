@@ -39,7 +39,10 @@ section{
     border:rgba(88, 172, 197, 0.795) 2px dotted ;
 }
 
-section:hover{
-    background-color: rgba(120, 216, 219, 0.664);
-    color: rgb(3, 158, 163);
+.comando-git{
+    padding: 5px;
+    font-size: 1.25rem;
+    border:rgba(173, 252, 255, 0.555) solid;
+    background-color: rgba(0, 139, 139, 0.342);
+    color: rgba(74, 204, 198, 0.705);
 }
