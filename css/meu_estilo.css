@@ -46,3 +46,32 @@ section{
     background-color: rgba(0, 139, 139, 0.342);
     color: rgba(74, 204, 198, 0.705);
 }
+
+p{
+    padding: 5px;
+}
+
+.conteudo{
+    margin-top: 50px;
+}
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projetos{
+    height: 200px;
+    width: 300px;
+    border-color: #9920a3 solid 2px;
+    margin: 10px;
+}
+
+.labels span{
+    color: white;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5pxs;
+}
