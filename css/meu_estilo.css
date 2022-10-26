@@ -3,7 +3,7 @@
     padding: 0;
 }
 nav{
-    height: 50px;
+    height: 37px;
     background-color:rgba(101, 182, 206, 0.555);
     padding: 6px;
     color: antiquewhite;
@@ -32,19 +32,23 @@ a:hover{
 }
 
 section{
+    
     min-height: 480px;
     background-color: rgba(173, 252, 255, 0.555);
-    color: rgb(26, 75, 77);
+    color: rgba(26, 75, 77, 0.719);
     padding: 10px;
     border:rgba(88, 172, 197, 0.795) 2px dotted ;
+}
+.redes_sociais{
+    min-height: 50px!important;
 }
 
 .comando-git{
     padding: 5px;
     font-size: 1.25rem;
-    border:rgba(173, 252, 255, 0.555) solid;
+    border:rgba(82, 187, 190, 0.555) solid;
     background-color: rgba(0, 139, 139, 0.342);
-    color: rgba(74, 204, 198, 0.705);
+    color: rgba(26, 75, 77, 0.719);
 }
 
 p{
@@ -69,9 +73,19 @@ p{
     margin: 10px;
 }
 
+.projetos>img{
+    width: 100%;
+}
+
 .labels span{
-    color: white;
-    background-color: rgb(194, 91, 1);
+    color: rgba(26, 75, 77, 0.719);;
+    background-color: rgba(19, 148, 165, 0.781);
     border-radius: 100px;
-    padding: 2px 5pxs;
+    padding: 2px 5px;
+}
+
+.contato{
+    padding: 10px;
+    text-align: left;
+    display:inline-block;
 }
