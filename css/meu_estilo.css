@@ -32,15 +32,22 @@ a:hover{
 }
 
 section{
-    
     min-height: 480px;
     background-color: rgba(173, 252, 255, 0.555);
     color: rgba(26, 75, 77, 0.719);
     padding: 10px;
     border:rgba(88, 172, 197, 0.795) 2px dotted ;
+    padding: 10px;
+
 }
 .redes_sociais{
     min-height: 50px!important;
+    background-color: rgb(255, 255, 255)!important;
+    border: rgb(255, 255, 255)!important;
+}
+
+.redes_sociais>h1{
+    background-color: rgb(255, 255, 255)!important;
 }
 
 .comando-git{
@@ -75,6 +82,7 @@ p{
 
 .projetos>img{
     width: 100%;
+
 }
 
 .labels span{
@@ -88,4 +96,12 @@ p{
     padding: 10px;
     text-align: left;
     display:inline-block;
+    background-color: rgb(253, 253, 253)!important;
+}
+
+footer{
+    font-size: 120%;
+    background-color: rgba(173, 252, 255, 0.555);
+    color: rgba(26, 75, 77, 0.719);
+    border:rgba(88, 172, 197, 0.795) 2px dotted ;
 }
